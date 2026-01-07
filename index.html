@@ -43,15 +43,43 @@
 
 <section id="skills">
     <h2>Skills</h2>
-    <div class="skills">
+
+    <div class="skill">
         <span>HTML</span>
+        <div class="bar">
+            <div class="progress html"></div>
+        </div>
+    </div>
+
+    <div class="skill">
         <span>CSS</span>
+        <div class="bar">
+            <div class="progress css"></div>
+        </div>
+    </div>
+
+    <div class="skill">
         <span>JavaScript</span>
+        <div class="bar">
+            <div class="progress js"></div>
+        </div>
+    </div>
+
+    <div class="skill">
         <span>Python</span>
-        <span>PHP</span>
+        <div class="bar">
+            <div class="progress python"></div>
+        </div>
+    </div>
+
+    <div class="skill">
         <span>Laravel</span>
+        <div class="bar">
+            <div class="progress git"></div>
+        </div>
     </div>
 </section>
+
 
 <section id="projects">
     <h2>Projects</h2>
@@ -72,7 +100,7 @@
         View on GitHub
     </a>
 </div>
-    
+
 <div class="project" id="weather-app">
     <h3>Weather App (API-Based)</h3>
     <p>
@@ -80,7 +108,7 @@
         It fetches real-time weather data from a public API and displays
         temperature and weather conditions based on user input.
     </p>
-    <a href="https://github.com/Kevin2003-22/weather-app" target="_blank">
+    <a href="https://github.com/yourusername/weather-app" target="_blank">
         View on GitHub
     </a>
 </div>
@@ -89,9 +117,30 @@
 
 <section id="contact">
     <h2>Contact</h2>
-    <p>Email: mhuepaingkhant@email.com</p>
-    <p>GitHub: <a href="https://github.com/Kevin2003-22" target="_blank">github.com/Kevin2003-22</a></p>
+
+    <div class="contact-container">
+        <!-- Contact Info -->
+        <div class="contact-info">
+            <p><strong>Email:</strong> mhuepaingkhant@email.com</p>
+            <p>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/Kevin2003-22" target="_blank">
+                    github.com/Kevin2003-22
+                </a>
+            </p>
+            <p><strong>Location:</strong> Pyay, Myanmar</p>
+        </div>
+
+        <!-- Contact Form -->
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="4" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
 </section>
+
 
 <footer>
     <p>© 2026 Khant Hmu Paing | Built with ❤️</p>
@@ -100,6 +149,3 @@
 <script src="script.js"></script>
 </body>
 </html>
-
-
-
